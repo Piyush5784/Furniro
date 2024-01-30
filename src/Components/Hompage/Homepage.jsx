@@ -3,9 +3,9 @@ import "./Homepage.css"
 import Heading from "../Heading/Heading.jsx";
 import ImageCart1 from "../ImageCarts/ImageCart1.jsx";
 
-import Image1 from "../../assets/ImageCart1.png"
-import Image2 from "../../assets/ImageCart2.png"
-import Image3 from "../../assets/ImageCart3.png"
+import Image1 from "../../assets/imageCart1.png"
+import Image2 from "../../assets/imageCart2.png"
+import Image3 from "../../assets/imageCart3.png"
 
 import ImageCart2 from "../ImageCarts/ImageCart2.jsx";
 
@@ -21,7 +21,6 @@ import item8 from "../../assets/item8.png"
 import item9 from "../../assets/item9.png"
 
 
-import item10 from "../../assets/item10.png"
 const Homepage = () => {
     return <>
         <div className="homepage-img">
