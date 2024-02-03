@@ -56,7 +56,6 @@ a {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 2.75rem;
     grid-row-gap: 3.125rem;
-
 }
 
 .flex2 {
@@ -202,11 +201,28 @@ a {
         flex-direction: column;
     }
 
+
+
     /* Your CSS rules for small screens go here */
 }
 
+@media screen and (max-width:538px) {
+    .texts {
+        left: 5%;
+    }
 
-@media screen and (max-width: 42.5rem) {
+    .parent {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .flex2 {
+        height: 120px;
+    }
+}
+
+@media screen and (min-width: 538px)and (max-width: 42.5rem) {
     .texts {
         left: 20%;
     }
@@ -226,9 +242,4 @@ a {
     .carts {
         grid-template-columns: 1fr;
     }
-}
-
-/* Large screens */
-@media screen and (min-width: 64rem) {
-    /* Your CSS rules for large screens go here */
 }

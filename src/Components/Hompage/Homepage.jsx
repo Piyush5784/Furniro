@@ -128,7 +128,7 @@ const Homepage = () => {
 
         </div>
         <hr className="hr" />
-        <p style={{ paddingLeft: "5rem" }}>2023 furino. All rights reverved. Website Made with ❤ <a href="https://www.linkedin.com/in/piyush-kumar-jha-a29619239/">Piyush</a> and designed by <a href="https://uiuxexperts.github.io/portfolio/">Aashifa sheikh</a></p>
+        <p style={{ textAlign: "center" }}>2023 furino. All rights reverved. Website Made with ❤ <a href="https://www.linkedin.com/in/piyush-kumar-jha-a29619239/">Piyush</a> and designed by <a href="https://uiuxexperts.github.io/portfolio/">Aashifa sheikh</a></p>
 
 
 
